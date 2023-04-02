@@ -1,4 +1,9 @@
 // SPDX-License-Identifier: MIT
+
+// Author: MemoryMix
+// Twitter: https://twitter.com/_MemoryMix_
+// For info memorymix@uerii.com
+
 pragma solidity ^0.8.0;
 
 contract WalletMap {
