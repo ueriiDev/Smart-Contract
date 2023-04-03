@@ -31,7 +31,7 @@ contract WalletMap {
         require(parent != child, "Parent and child cannot be the same wallet");
         require(childToParent[child] == address(0), "Child wallet already associated with another parent wallet");
 
-        // Controllo che il wallet figlio non sia già un wallet padre
+        
         require(getChildren(child).length == 0, "The child wallet is already a parent of another wallet");
 
         childToParent[child] = parent;
